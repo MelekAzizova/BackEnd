@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "0hTIqLbWHmFPNgA93IzQxT8egDkDah57FY+wsFu4CJw=",
+  "Hash": "UbSfPH2zCDTyyOVYBiAlkI5M6FYEGJamCRRmuJatJJ8=",
   "Source": "AzMB101_Melek_Azizova",
   "BasePath": "_content/AzMB101_Melek_Azizova",
   "Mode": "Default",
@@ -85,6 +85,23 @@
       "OriginalItemSpec": "wwwroot\\admin\\css\\sb-admin-2.min.css"
     },
     {
+      "Identity": "C:\\Users\\Birinci\\Desktop\\BackEnd\\AzMB101_Melek_Azizova\\AzMB101_Melek_Azizova\\wwwroot\\admin\\image\\2a4yqmmw.aofbasket.png.png",
+      "SourceId": "AzMB101_Melek_Azizova",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Birinci\\Desktop\\BackEnd\\AzMB101_Melek_Azizova\\AzMB101_Melek_Azizova\\wwwroot\\",
+      "BasePath": "_content/AzMB101_Melek_Azizova",
+      "RelativePath": "admin/image/2a4yqmmw.aofbasket.png.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\admin\\image\\2a4yqmmw.aofbasket.png.png"
+    },
+    {
       "Identity": "C:\\Users\\Birinci\\Desktop\\BackEnd\\AzMB101_Melek_Azizova\\AzMB101_Melek_Azizova\\wwwroot\\admin\\image\\2odugwdq.snrlaptop.png.png",
       "SourceId": "AzMB101_Melek_Azizova",
       "SourceType": "Discovered",
@@ -136,6 +153,23 @@
       "OriginalItemSpec": "wwwroot\\admin\\image\\a0cqfb44.vuoimg-9.png.png"
     },
     {
+      "Identity": "C:\\Users\\Birinci\\Desktop\\BackEnd\\AzMB101_Melek_Azizova\\AzMB101_Melek_Azizova\\wwwroot\\admin\\image\\adnegw1r.btybasket.png.png",
+      "SourceId": "AzMB101_Melek_Azizova",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Birinci\\Desktop\\BackEnd\\AzMB101_Melek_Azizova\\AzMB101_Melek_Azizova\\wwwroot\\",
+      "BasePath": "_content/AzMB101_Melek_Azizova",
+      "RelativePath": "admin/image/adnegw1r.btybasket.png.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\admin\\image\\adnegw1r.btybasket.png.png"
+    },
+    {
       "Identity": "C:\\Users\\Birinci\\Desktop\\BackEnd\\AzMB101_Melek_Azizova\\AzMB101_Melek_Azizova\\wwwroot\\admin\\image\\cffebhcf.sj2laptop.png.png",
       "SourceId": "AzMB101_Melek_Azizova",
       "SourceType": "Discovered",
@@ -151,6 +185,23 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\admin\\image\\cffebhcf.sj2laptop.png.png"
+    },
+    {
+      "Identity": "C:\\Users\\Birinci\\Desktop\\BackEnd\\AzMB101_Melek_Azizova\\AzMB101_Melek_Azizova\\wwwroot\\admin\\image\\d1qcpwrr.h2cbasket.png.png",
+      "SourceId": "AzMB101_Melek_Azizova",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Birinci\\Desktop\\BackEnd\\AzMB101_Melek_Azizova\\AzMB101_Melek_Azizova\\wwwroot\\",
+      "BasePath": "_content/AzMB101_Melek_Azizova",
+      "RelativePath": "admin/image/d1qcpwrr.h2cbasket.png.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\admin\\image\\d1qcpwrr.h2cbasket.png.png"
     },
     {
       "Identity": "C:\\Users\\Birinci\\Desktop\\BackEnd\\AzMB101_Melek_Azizova\\AzMB101_Melek_Azizova\\wwwroot\\admin\\image\\dv2l1wum.iinlaptop.png.png",
@@ -236,6 +287,23 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\admin\\image\\vkzkwetk.wawimg-5.jpg.jpg"
+    },
+    {
+      "Identity": "C:\\Users\\Birinci\\Desktop\\BackEnd\\AzMB101_Melek_Azizova\\AzMB101_Melek_Azizova\\wwwroot\\admin\\image\\w3ubcxi3.4cxlab.png.png",
+      "SourceId": "AzMB101_Melek_Azizova",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Birinci\\Desktop\\BackEnd\\AzMB101_Melek_Azizova\\AzMB101_Melek_Azizova\\wwwroot\\",
+      "BasePath": "_content/AzMB101_Melek_Azizova",
+      "RelativePath": "admin/image/w3ubcxi3.4cxlab.png.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\admin\\image\\w3ubcxi3.4cxlab.png.png"
     },
     {
       "Identity": "C:\\Users\\Birinci\\Desktop\\BackEnd\\AzMB101_Melek_Azizova\\AzMB101_Melek_Azizova\\wwwroot\\admin\\image\\x2i2npxl.gn0laptop.png.png",
