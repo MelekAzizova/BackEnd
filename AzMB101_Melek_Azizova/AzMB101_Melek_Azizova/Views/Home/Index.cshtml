@@ -1,4 +1,4 @@
-﻿@model List<Service>
+﻿@model HomeVM
 @{
     ViewData["Title"] = "Index";
 }
@@ -39,16 +39,20 @@
 			</div>
 		</div>
 		<div class="row">
-			<div class="span2 offset1 flyIn">
-				<div class="people">
-					<img class="team-thumb img-circle" src="img/team/img-1.jpg" alt="" />
-					<h3>John Doe</h3>
-					<p>
-						Art director
-					</p>
+			@foreach(var item in Model.Workers)
+			{
+				
+				<div class="span2 offset1 flyIn">
+					<div class="people">
+						<img class="team-thumb img-circle" src="~/@item.Image" alt="" />
+						<h3>@item.Name</h3>
+						<p>
+							Art director
+						</p>
+					</div>
 				</div>
-			</div>
-			<div class="span2 flyIn">
+			}
+			@* <div class="span2 flyIn">
 				<div class="people">
 					<img class="team-thumb img-circle" src="img/team/img-2.jpg" alt="" />
 					<h3>Mike Doe</h3>
@@ -83,7 +87,7 @@
 						Digital imaging
 					</p>
 				</div>
-			</div>
+			</div> *@
 		</div>
 	</div>
 	<!-- /.container -->
@@ -95,7 +99,7 @@
 		<h4>Services</h4>
 		<!-- Four columns -->
 		<div class="row">
-			@foreach(var item in Model)
+			@foreach(var item in Model.Services)
 			{
 				
 				<div class="span3 animated-fast flyIn">
@@ -427,35 +431,39 @@
 		</div>
 		<div class="row">
 			<div class="span12">
-				<div class="cform" id="contact-form">
-					<div id="sendmessage">Your message has been sent. Thank you!</div>
-					<div id="errormessage"></div>
-					<form action="" method="post" role="form" class="contactForm">
-						<div class="row">
-							<div class="span6">
-								<div class="field your-name form-group">
-									<input type="text" name="name" class="form-control" id="name" placeholder="Your Name" data-rule="minlen:4" data-msg="Please enter at least 4 chars" />
-									<div class="validation"></div>
+				@foreach(var item in Model.Messages)
+				{
+					
+					<div class="cform" id="contact-form">
+						<div id="sendmessage">Your message has been sent. Thank you!</div>
+						<div id="errormessage"></div>
+						<form action="" method="post" role="form" class="contactForm">
+							<div class="row">
+								<div class="span6">
+									<div class="field your-name form-group">
+										<input type="text" name="name" class="form-control" id="name" placeholder="Your Name" data-rule="minlen:4" data-msg="Please enter at least 4 chars" />
+										<div class="validation"></div>
+									</div>
+									<div class="field your-email form-group">
+										<input type="text" class="form-control" name="email" id="email" placeholder="Your Email" data-rule="email" data-msg="Please enter a valid email" />
+										<div class="validation"></div>
+									</div>
+									<div class="field subject form-group">
+										<input type="text" class="form-control" name="subject" id="subject" placeholder="Subject" data-rule="minlen:4" data-msg="Please enter at least 8 chars of subject" />
+										<div class="validation"></div>
+									</div>
 								</div>
-								<div class="field your-email form-group">
-									<input type="text" class="form-control" name="email" id="email" placeholder="Your Email" data-rule="email" data-msg="Please enter a valid email" />
-									<div class="validation"></div>
-								</div>
-								<div class="field subject form-group">
-									<input type="text" class="form-control" name="subject" id="subject" placeholder="Subject" data-rule="minlen:4" data-msg="Please enter at least 8 chars of subject" />
-									<div class="validation"></div>
+								<div class="span6">
+									<div class="field message form-group">
+										<textarea class="form-control" name="message" rows="5" data-rule="required" data-msg="Please write something for us" placeholder="Message"></textarea>
+										<div class="validation"></div>
+									</div>
+									<input type="submit" value="Send message" class="btn btn-theme pull-left">
 								</div>
 							</div>
-							<div class="span6">
-								<div class="field message form-group">
-									<textarea class="form-control" name="message" rows="5" data-rule="required" data-msg="Please write something for us" placeholder="Message"></textarea>
-									<div class="validation"></div>
-								</div>
-								<input type="submit" value="Send message" class="btn btn-theme pull-left">
-							</div>
-						</div>
-					</form>
-				</div>
+						</form>
+					</div>
+				}
 			</div>
 			<!-- ./span12 -->
 		</div>

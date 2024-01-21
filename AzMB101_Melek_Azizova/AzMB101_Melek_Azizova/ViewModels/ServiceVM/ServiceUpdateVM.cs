@@ -6,5 +6,6 @@
         public IFormFile Image { get; set; }
         public string Title { get; set; }
         public string Position { get; set; }
+        public int PostionId { get; set; }
     }
 }

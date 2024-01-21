@@ -9,7 +9,7 @@ namespace AzMB101_Melek_Azizova.Models
         public string Name { get; set; }
         [Required, MaxLength(128)]
         public string Image { get; set; }
-        //public Position? Position { get; set; }
+       // public string Position { get; set; }
         //public int PositionId { get; set; }
     }
 }

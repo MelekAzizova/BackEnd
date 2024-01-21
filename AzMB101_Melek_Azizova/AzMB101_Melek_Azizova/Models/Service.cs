@@ -11,5 +11,7 @@ namespace AzMB101_Melek_Azizova.Models
         public string Title { get; set; }
         [Required, MaxLength(64)]
         public string Position { get; set; }
+        //public Position? Position {  get; set; }
+        //public int PositionId { get; set; }
     }
 }

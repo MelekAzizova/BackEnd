@@ -1,4 +1,5 @@
-﻿<!DOCTYPE HTML>
+﻿@model HomeVM
+<!DOCTYPE HTML>
 <html lang="en">
 
 <head>
@@ -79,21 +80,21 @@
 					<div class="span12">
 						<div id="main-flexslider" class="flexslider">
 							<ul class="slides">
-								<li>
-									<p class="home-slide-content">
-										<strong>creative</strong> and passion
-									</p>
-								</li>
-								<li>
-									<p class="home-slide-content">
-										Eat and drink <strong>design</strong>
-									</p>
-								</li>
-								<li>
+								@foreach(var item in Model.Sliders)
+								{
+									
+									
+									<li>
+										<p class="home-slide-content">
+											@item.Title
+										</p>
+									</li>
+								}
+								@* <li>
 									<p class="home-slide-content">
 										We loves <strong>simplicity</strong>
 									</p>
-								</li>
+								</li> *@
 							</ul>
 						</div>
 						<!-- end slider -->

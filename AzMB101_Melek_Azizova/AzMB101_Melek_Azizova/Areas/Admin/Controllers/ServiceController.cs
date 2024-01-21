@@ -4,6 +4,7 @@ using AzMB101_Melek_Azizova.Models;
 using AzMB101_Melek_Azizova.ViewModels.PositionVM;
 using AzMB101_Melek_Azizova.ViewModels.ServiceVM;
 using Microsoft.AspNetCore.Mvc;
+using Microsoft.AspNetCore.Mvc.Rendering;
 using Microsoft.EntityFrameworkCore;
 
 namespace AzMB101_Melek_Azizova.Areas.Admin.Controllers
@@ -28,18 +29,22 @@ namespace AzMB101_Melek_Azizova.Areas.Admin.Controllers
                 Title = s.Title,
                 Position = s.Position,
                
-            }).ToListAsync();
+				//ViewBag.Roles = context.Roles.Select(b => new SelectListItem { Value = b.Name, Text = b.Name });
+
+		}).ToListAsync();
             return View(data);
         }
         public IActionResult Create()
         {
+            //@ViewBag.Positions=new SelecetList(_db.Position,"Id","Name");
             return View();
         }
         [HttpPost]
         public async Task<IActionResult> Create(ServiceCreateVM vm)
         {
             if (!ModelState.IsValid) return View(vm);
-            Service service = new Service
+			//@ViewBag.Positions=new SelecetList(_db.Position,"Id","Name");
+			Service service = new Service
             {
                
                 Title=vm.Title,
@@ -57,7 +62,8 @@ namespace AzMB101_Melek_Azizova.Areas.Admin.Controllers
             if (id == null) return BadRequest();
             var data = await _db.Services.FindAsync(id);
             if (data == null) return NotFound();
-            _db.Services.Remove(data);
+			//@ViewBag.Positions=new SelecetList(_db.Position,"Id","Name");
+			_db.Services.Remove(data);
             await _db.SaveChangesAsync();
             return RedirectToAction(nameof(Index));
 
@@ -67,7 +73,8 @@ namespace AzMB101_Melek_Azizova.Areas.Admin.Controllers
             if (id == null) return BadRequest();
             var data = await _db.Services.FindAsync(id);
             if (data == null) return NotFound();
-            return View(new ServiceUpdateVM
+			//@ViewBag.Positions=new SelecetList(_db.Position,"Id","Name");
+			return View(new ServiceUpdateVM
             {
                 Position=data.Position,
                 Title=data.Title,
@@ -81,7 +88,8 @@ namespace AzMB101_Melek_Azizova.Areas.Admin.Controllers
             if (id == null) return BadRequest();
             var data = await _db.Services.FindAsync(id);
             if (data == null) return NotFound();
-            data.Position = vm.Position;
+			//@ViewBag.Positions=new SelecetList(_db.Position,"Id","Name");
+			data.Position = vm.Position;
             data.Title = vm.Title;
             data.Image = await vm.Image.SaveAsync(PathConst.Photo);
             await _db.SaveChangesAsync();
