@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "OMqsZ/K2DNyw0qALZNNSm91PYZON4vTy0r8LCTKNxxHRnQsxODTbj7skJkI5IcDH0IKXtA1r7ZXmIYfYojAkDA==",
+  "dgSpecHash": "TapgaMSm1v6jeIdQoqfbyj31Cx39yraRcaqSYOEMuMCWhv8pM/y8YPIAvxFeQlDBKGo6xqn34AixsPLxSaUjYA==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Birinci\\source\\repos\\AzMB101_Melek_Azizova\\AzMB101_Melek_Azizova\\AzMB101_Melek_Azizova.csproj",
+  "projectFilePath": "C:\\Users\\Birinci\\Desktop\\BackEnd\\AzMB101_Melek_Azizova\\AzMB101_Melek_Azizova\\AzMB101_Melek_Azizova.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Birinci\\.nuget\\packages\\humanizer\\2.14.1\\humanizer.2.14.1.nupkg.sha512",
     "C:\\Users\\Birinci\\.nuget\\packages\\humanizer.core\\2.14.1\\humanizer.core.2.14.1.nupkg.sha512",

@@ -20,11 +20,12 @@ namespace AzMB101_Melek_Azizova.Areas.Admin.Controllers
 
         public async Task<IActionResult> Index()
         {
-            var data = await _db.Workers.Select(s => new WorkerListItemVM
+            var data = await _db.Workers.Select( s => new WorkerListItemVM
             {
                 Id = s.Id,
                 Name = s.Name,
                 Image=s.Image,
+              
                
 
             }).ToListAsync();

@@ -1,5 +1,6 @@
 ﻿using AzMB101_Melek_Azizova.Contexts;
 using AzMB101_Melek_Azizova.Models;
+using AzMB101_Melek_Azizova.ViewModels.MessageVM;
 using AzMB101_Melek_Azizova.ViewModels.SliderVM;
 using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
@@ -21,8 +22,8 @@ namespace AzMB101_Melek_Azizova.Areas.Admin.Controllers
 
 		public async  Task<IActionResult> Index()
 		{
-			var data = await _db.Sliders.Select(s => new SliderListItemVM
-			{
+			var data = await _db.Sliders.Select(s => new SlideListItemVM
+            {
 				Id = s.Id,
 				Title = s.Title,
 			}).ToListAsync();

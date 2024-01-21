@@ -14,5 +14,6 @@ namespace AzMB101_Melek_Azizova.Contexts
         public DbSet<Worker> Workers { get; set; }
         public DbSet<Position> Positions { get; set; }
         public DbSet<Service> Services { get; set; }
+        public DbSet<Message> Messages { get; set; }
     }
 }
