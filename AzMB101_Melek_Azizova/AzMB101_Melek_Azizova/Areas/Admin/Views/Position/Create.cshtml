@@ -1,0 +1,16 @@
+﻿@model PositionCreateVM
+@{
+    ViewData["Title"] = "Create";
+}
+
+<form method="post">
+    <div class="form-group">
+        <label asp-for="Name"></label>
+        <input asp-for="Name" class="form-control">
+        <span asp-validation-for="Name" class="form-text text-muted"></span>
+    </div>
+
+    <button type="submit" class="btn btn-primary">Submit</button>
+</form>
+
+

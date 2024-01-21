@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="..\buildMultiTargeting\AzMB101_Melek_Azizova.props" />
+</Project>

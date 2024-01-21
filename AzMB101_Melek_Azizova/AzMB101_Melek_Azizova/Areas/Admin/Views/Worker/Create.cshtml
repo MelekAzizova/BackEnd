@@ -1,0 +1,19 @@
+﻿@model WorkerCreateVM
+@{
+    ViewData["Title"] = "Create";
+}
+
+<form method="post" enctype="multipart/form-data">
+    <div class="form-group">
+        <label asp-for="Name"></label>
+        <input asp-for="Name" class="form-control">
+        <span asp-validation-for="Name" class="form-text text-muted"></span>
+    </div>
+    <div class="form-group">
+        <label asp-for="Image"></label>
+        <input asp-for="Image" class="form-control">
+        <span asp-validation-for="Image" class="form-text text-muted"></span>
+    </div>
+
+    <button type="submit" class="btn btn-primary">Submit</button>
+</form>
